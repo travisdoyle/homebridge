@@ -5,11 +5,8 @@
 # Node
 node_modules/
 npm-debug.log
+.node-version
 
-# Intellij
-.idea/
-*.iml
-
-# HomeBridge
-config.json
-persist/
+# Ignore any extra plugins in the example directory that aren't in Git already
+# (this is a sandbox for the user)
+example-plugins
